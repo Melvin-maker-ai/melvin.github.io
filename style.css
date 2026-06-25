@@ -1,0 +1,297 @@
+/*
+CSS DESIGN PROMPT
+
+Create a world-class travel website UI for "Travel Adventures Explorer".
+
+DESIGN THEME:
+Luxury Travel | National Geographic | Lonely Planet | Expedia Inspired
+
+OVERALL FEEL:
+- Premium
+- Modern
+- Clean
+- Adventurous
+- Immersive
+- Professional
+- Elegant
+
+COLOR PALETTE:
+
+Primary:
+#0E4D92 (Ocean Blue)
+
+Secondary:
+#00B4D8 (Turquoise)
+
+Accent:
+#FFB703 (Sunset Gold)
+
+Background:
+#F8FAFC (Soft White)
+
+Dark Text:
+#1E293B
+
+Light Text:
+#64748B
+
+Card Background:
+rgba(255,255,255,0.75)
+
+SECTION STYLING
+
+1. HERO SECTION
+
+Requirements:
+- Full viewport height (100vh)
+- Background image slider
+- Dark overlay gradient
+- Centered content
+- Large headline (60px+ desktop)
+- Smooth fade animation
+- Floating search box
+- Call-to-action button
+
+Headline Style:
+- Bold
+- White
+- Text shadow
+- Letter spacing 1px
+
+Button Style:
+- Rounded pill shape
+- Gradient background
+- Hover lift effect
+- Smooth transitions
+
+2. NAVIGATION BAR
+
+Style:
+- Fixed navigation
+- Transparent initially
+- Glassmorphism effect on scroll
+- Blur backdrop
+- White text
+
+Hover Effects:
+- Underline animation
+- Smooth color transition
+
+3. DESTINATION CARDS
+
+Layout:
+- CSS Grid
+- Auto-fit responsive columns
+
+Card Style:
+- Glassmorphism
+- Border radius 20px
+- Soft shadow
+- Overflow hidden
+
+Hover Animation:
+- Lift card by 10px
+- Scale image 1.1x
+- Shadow increase
+
+Card Content:
+- Country title
+- Description
+- Activities tags
+- Explore button
+
+4. APAC & REST OF WORLD SECTIONS
+
+Layout:
+- Wide container
+- Generous whitespace
+- Responsive grid
+
+Section Header:
+- Large bold heading
+- Decorative underline
+- Supporting subtitle
+
+5. FEATURED EXPERIENCE CARDS
+
+Style:
+- Full-image cards
+- Dark gradient overlay
+- Centered text
+
+Hover:
+- Image zoom
+- Overlay darkens
+- CTA appears
+
+Categories:
+- Beach Escapes
+- Mountain Adventures
+- Cultural Journeys
+- Culinary Trails
+- Wildlife Expeditions
+- Luxury Experiences
+
+6. TRAVEL GALLERY
+
+Layout:
+- Masonry grid
+- Uneven image heights
+
+Effects:
+- Hover zoom
+- Caption fade-in
+- Lightbox integration
+
+Image Style:
+- Rounded corners
+- High-quality appearance
+- Shadow depth
+
+7. SEARCH BAR
+
+Style:
+- Floating over hero image
+- Rounded 50px corners
+- Soft shadow
+- Search icon
+
+Focus State:
+- Glow effect
+- Smooth border animation
+
+8. FILTER BUTTONS
+
+Categories:
+Beach
+City
+Nature
+Culture
+Adventure
+Luxury
+
+Style:
+- Pill-shaped buttons
+- Minimalist design
+
+Active State:
+- Filled primary color
+- White text
+
+Hover:
+- Slight scale animation
+
+9. STATISTICS SECTION
+
+Cards:
+- Glass effect
+- Center aligned
+
+Counter Style:
+- Large numeric display
+- Animated count-up
+
+Examples:
+50+
+Countries
+
+200+
+Attractions
+
+500+
+Experiences
+
+1M+
+Travelers Inspired
+
+10. FOOTER
+
+Style:
+- Dark luxury footer
+- Multi-column layout
+- Newsletter signup
+
+Include:
+- Logo
+- Links
+- Social Icons
+- Copyright
+
+11. ANIMATIONS
+
+Implement:
+
+Fade In:
+opacity: 0 → 1
+
+Slide Up:
+translateY(40px) → 0
+
+Zoom In:
+scale(0.95) → 1
+
+Duration:
+0.6s – 1s
+
+Smooth scrolling:
+scroll-behavior: smooth;
+
+12. RESPONSIVE BREAKPOINTS
+
+Desktop:
+1440px+
+
+Laptop:
+1024px
+
+Tablet:
+768px
+
+Mobile:
+480px
+
+Mobile Requirements:
+- Hamburger menu
+- Single-column layouts
+- Smaller typography
+- Touch-friendly buttons
+
+TYPOGRAPHY
+
+Font:
+Poppins, sans-serif
+
+Headings:
+Weight 700–800
+
+Body:
+Weight 400–500
+
+Line Height:
+1.6
+
+Accessibility:
+- WCAG-friendly contrast
+- Visible focus states
+- Keyboard navigable
+
+FINAL VISUAL RESULT:
+
+Create a premium travel platform with:
+✓ Glassmorphism UI
+✓ Luxury travel aesthetics
+✓ Immersive destination imagery
+✓ Smooth modern animations
+✓ Mobile responsiveness
+✓ Magazine-style layouts
+✓ Professional travel booking inspiration
+
+The website should feel like a blend of:
+- National Geographic Travel
+- Lonely Planet
+- Airbnb Experiences
+- Expedia Discover
+- Condé Nast Traveller
+
+while maintaining excellent performance and clean modern design.
+*/
