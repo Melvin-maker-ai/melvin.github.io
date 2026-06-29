@@ -1,18 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Travel Adventures Explorer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Adventures Explorer</title>
 
-    <!-- AI WEBSITE GENERATION PROMPT -->
-    <!--
-    Your travel website prompt content here...
-    -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),
+url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=80");
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+max-width:700px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.hero a{
+background:#00b4d8;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,.7);
+padding:18px;
+display:flex;
+justify-content:center;
+gap:35px;
+z-index:999;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+section{
+padding:80px 8%;
+}
+
+h2{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:#0e4d92;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:18px;
+overflow:hidden;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card-content{
+padding:25px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0e4d92;
+}
+
+.card ul{
+margin-top:15px;
+padding-left:18px;
+}
+
+footer{
+background:#0e4d92;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+.button{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#ffb703;
+color:#222;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+</style>
+
 </head>
 
 <body>
 
+<nav>
+<a href="#apac">APAC</a>
+<a href="#world">Rest of World</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<header>
+
+<div class="hero">
+
+<h1>Discover Extraordinary Adventures</h1>
+
+<p>
+Explore breathtaking destinations across Asia-Pacific and the Rest of the World.
+From tropical islands to iconic cities, your next unforgettable journey starts here.
+</p>
+
+<a href="#apac">Start Exploring</a>
+
+</div>
+
+</header>
+
+<section id="apac">
+
+<h2>APAC Adventures</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>Japan</h3>
+<p>Experience tradition and innovation.</p>
+<ul>
+<li>Mount Fuji</li>
+<li>Cherry Blossoms</li>
+<li>Kyoto Temples</li>
+<li>Sushi Tours</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>Thailand</h3>
+<p>Beautiful beaches and vibrant culture.</p>
+<ul>
+<li>Island Hopping</li>
+<li>Scuba Diving</li>
+<li>Night Markets</li>
+<li>Temple Visits</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516815231560-8f41ec531527?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>Malaysia</h3>
+<p>Culture, food and rainforests.</p>
+<ul>
+<li>Langkawi</li>
+<li>Petronas Towers</li>
+<li>Rainforest Trekking</li>
+<li>Food Trail</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="world">
+
+<h2>Rest of World</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1431274172761-fca41d930114?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>France</h3>
+<p>Romantic cities and fine cuisine.</p>
+<ul>
+<li>Eiffel Tower</li>
+<li>Louvre Museum</li>
+<li>River Cruise</li>
+<li>Wine Tours</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>Italy</h3>
+<p>Historic landmarks and coastal beauty.</p>
+<ul>
+<li>Rome</li>
+<li>Venice</li>
+<li>Amalfi Coast</li>
+<li>Food Experiences</li>
+</ul>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=900&q=80">
+<div class="card-content">
+<h3>Switzerland</h3>
+<p>Majestic mountains and scenic railways.</p>
+<ul>
+<li>Swiss Alps</li>
+<li>Glacier Express</li>
+<li>Ski Resorts</li>
+<li>Hiking</li>
+</ul>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Travel Gallery</h2>
+
+<div class="grid">
+
+<img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=700&q=80">
+<img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?auto=format&fit=crop&w=700&q=80">
+<img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=700&q=80">
+<img src="https://images.unsplash.com/photo-1470770903676-69b98201ea1c?auto=format&fit=crop&w=700&q=80">
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<h2 style="color:white;">Travel Adventures Explorer</h2>
+
+<p>
+Explore the world one destination at a time.
+</p>
+
+<p style="margin-top:20px;">
+© 2026 Travel Adventures Explorer
+</p>
+
+</footer>
+
+<!-- ElevenLabs AI Widget -->
+
+<elevenlabs-convai
+agent-id="agent_8601kvyvxpdmegfv70nmhcagx5nr">
+</elevenlabs-convai>
+
+<script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async></script>
+
+</body>
+</html>
     <!-- Your website content goes here -->
 
     <!-- ElevenLabs Conversational AI Widget -->
